@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DA44C944-7267-45B2-8EFC-7685ACB7EB2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskTracker.Core", "TaskTracker.Core\TaskTracker.Core.csproj", "{32D65E1D-C699-45E6-B1D3-02EE0F4432A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskTracker.Infrastructure", "TaskTracker.Infrastructure\TaskTracker.Infrastructure.csproj", "{9DE8DB5E-50CF-496C-B2BD-79657921E871}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTracker.WebAPI", "TaskTracker.WebAPI\TaskTracker.WebAPI.csproj", "{726E2523-0D71-481F-B93F-6D0F8BD35222}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32D65E1D-C699-45E6-B1D3-02EE0F4432A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D65E1D-C699-45E6-B1D3-02EE0F4432A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D65E1D-C699-45E6-B1D3-02EE0F4432A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D65E1D-C699-45E6-B1D3-02EE0F4432A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DE8DB5E-50CF-496C-B2BD-79657921E871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE8DB5E-50CF-496C-B2BD-79657921E871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE8DB5E-50CF-496C-B2BD-79657921E871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE8DB5E-50CF-496C-B2BD-79657921E871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{726E2523-0D71-481F-B93F-6D0F8BD35222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{726E2523-0D71-481F-B93F-6D0F8BD35222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{726E2523-0D71-481F-B93F-6D0F8BD35222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{726E2523-0D71-481F-B93F-6D0F8BD35222}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32D65E1D-C699-45E6-B1D3-02EE0F4432A6} = {DA44C944-7267-45B2-8EFC-7685ACB7EB2D}
+		{9DE8DB5E-50CF-496C-B2BD-79657921E871} = {DA44C944-7267-45B2-8EFC-7685ACB7EB2D}
+		{726E2523-0D71-481F-B93F-6D0F8BD35222} = {DA44C944-7267-45B2-8EFC-7685ACB7EB2D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D4CEB09-C7B3-4C45-8856-8CC830881D9A}
+	EndGlobalSection
+EndGlobal
